@@ -1,0 +1,5 @@
+from src.tateti import jugar
+
+if __name__ == "__main__":
+    print("=== Bienvenido al juego de Ta-Te-Ti ===")
+    jugar()

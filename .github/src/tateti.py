@@ -2,6 +2,7 @@ from tablero import Tablero
 from jugador import Jugador
 from cli import pedir_posicion, mostrar_mensaje
 
+
 def jugar():
     tablero = Tablero()
     jugador1 = Jugador("Jugador 1", "X")
@@ -36,3 +37,6 @@ def jugar():
             break
 
         turno += 1
+
+if __name__ == "__main__":
+    jugar()
